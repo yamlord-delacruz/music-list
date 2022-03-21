@@ -1,0 +1,52 @@
+{
+  "musicList": [
+    {
+      "id": 1,
+      "artist": "Dreamer Isioma",
+      "album": "The Leo Sun Sets",
+      "title": "Stop Calling the Police on Me",
+      "art": "https://i.postimg.cc/htbNScv0/dreamer-isioma-the-leo-sun-sets-stop-calling-the-police-on-me.png",
+      "favorite": true
+    },
+    {
+      "id": 2,
+      "artist": "HONNE, Izzy Bizu",
+      "album": "Warm on a Cold Night (Deluxe)",
+      "title": "Someone That Loves You",
+      "art": "https://i.postimg.cc/tT062QdL/honne-izzy-bizu-warm-on-a-cold-night-deluxe-someone-that-loves-you.png",
+      "favorite": false
+    },
+    {
+      "id": 3,
+      "artist": "Kennie",
+      "album": "Black Neon",
+      "title": "Clarity",
+      "art": "https://i.postimg.cc/kGJvvPq7/kennie-black-neon-clarity.png",
+      "favorite": false
+    },
+    {
+      "id": 4,
+      "artist": "Last Dinosaurs",
+      "album": "Wellness",
+      "title": "Evie",
+      "art": "https://i.postimg.cc/7ZGMVV8J/last-dinosaurs-wellness-evie.png",
+      "favorite": false
+    },
+    {
+      "id": 5,
+      "artist": "Luna",
+      "album": "Free Somebody",
+      "title": "Free Somebody",
+      "art": "https://i.postimg.cc/nLqK8hLH/luna-free-somebody.png",
+      "favorite": true
+    },
+    {
+      "id": 6,
+      "artist": "Reol",
+      "album": "Q?",
+      "title": "Q?",
+      "art": "https://i.postimg.cc/KzNnzpLw/reol-q.png",
+      "favorite": false
+    }
+  ]
+}

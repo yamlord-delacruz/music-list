@@ -1,0 +1,156 @@
+body, html {
+  margin: 0;
+}
+
+body {
+  margin: 10px;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  place-content: center;
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 2em 2em;
+  background-color: rgb(46,46,46);
+  color: #fff;
+  border: 5px solid rgb(37,37,38);
+  border-radius: 5px;
+  overflow: auto;
+}
+
+header h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+}
+
+.container__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.container__btn {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.container__btn:focus {
+  outline: none;
+}
+
+.container__btn:active {
+  transform: scale(0.98);
+}
+
+.container__btn-block {
+  display: block;
+  width: 99%;
+}
+
+.container__music-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container__music {
+  background: rgb(37,37,38);
+  color: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.container__music p {
+  margin: 5px;
+}
+
+.container__music.favorite {
+  border-left: 5px solid green;
+}
+
+.container__music-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container__image {
+  min-height: 100px;
+  min-width: 100x;
+  padding: 5px;
+}
+
+.container__resize {
+  height: 100px;
+  width: 100%;
+}
+
+.container__resize {
+  height: 100%;
+  width: 100px;
+}
+
+.container__music-header h3 {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.container__add-form {
+  margin: 10px 0px 40px 0px;
+}
+
+.container__form-control {
+  margin: 20px 0;
+}
+
+.container__form-control label {
+  display: block;
+}
+
+.container__form-control input {
+  width: 98%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.container__form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container__form-control-check label {
+  flex: 1;
+}
+
+.container__form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+.container__footer {
+  margin-top: 30px;
+  text-align: center;
+}
